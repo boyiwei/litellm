@@ -9556,6 +9556,26 @@
         "litellm_provider": "together_ai",
         "mode": "embedding"
     },
+    "together_ai/deepseek-ai/deepseek-r1": {
+        "input_cost_per_token": 0.000003,
+        "output_cost_per_token": 0.000007,
+        "litellm_provider": "together_ai",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_response_schema": true,
+        "mode": "chat",
+        "supports_tool_choice": true
+    },
+    "together_ai/deepseek-ai/deepseek-v3": {
+        "input_cost_per_token": 0.00000125,
+        "output_cost_per_token": 0.00000125,
+        "litellm_provider": "together_ai",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_response_schema": true,
+        "mode": "chat",
+        "supports_tool_choice": true
+    },
     "together_ai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo": {
         "input_cost_per_token": 0.00000018,
         "output_cost_per_token": 0.00000018,
